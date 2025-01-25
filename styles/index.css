@@ -1,0 +1,81 @@
+/* General Reset */
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+.nav-text span{
+    color: #FF6B00;
+    color: skyblue;
+    color: skyblue;
+    color: #5D58EF;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.content-btn{
+    background-color: #FF6B00;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #f9f9f9;
+    
+
+}
+.hero-text h1{
+    font-size: 50px;
+    color: #333;
+
+}
+.hero-text h1 span{
+    color: rgb(5, 113, 156);
+}
+.hero-text p{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555;
+}
+.enroll-btn{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-image img{
+    width: 300px;
+    border-radius: 20px;
+}
