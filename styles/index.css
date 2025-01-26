@@ -79,3 +79,83 @@ nav ul li a{
     width: 300px;
     border-radius: 20px;
 }
+/* curriculum Section  */
+.curriculum{
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+
+}
+.curriculum h2{
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.curriculum-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    
+    transition: transform 0.3s ease;
+    position: relative;
+}
+.card-icon{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background: #e6f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon img{
+    width: 50px;
+
+    
+}
+.card h3{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 15px;
+
+}
+.read-more{
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+
+}
+.read-more:hover{
+    color: #0056b3;
+}
+.carousel-controls{
+    margin-bottom: 20px;
+}
+.carousel-controls button{
+      background: #ff6b00;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 16px;
+      cursor: pointer;
+
+}
+.carousel-controls button:hover{
+    background: #e65ce6;
+}
